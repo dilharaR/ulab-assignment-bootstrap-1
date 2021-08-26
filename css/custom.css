@@ -61,6 +61,9 @@ btn2{
 
 }
 */
+purple-a{
+    display: flex;
+}
 .title{
     padding: 50px;
 }
