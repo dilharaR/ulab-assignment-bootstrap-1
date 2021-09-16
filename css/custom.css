@@ -1,3 +1,23 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap');
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  /*font-family: 'DM Serif Display', serif;*/
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+h1, h2, h3, h4{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+
+}
 .btn-outline-success {
     color: #000;
     border-color: #000000;
@@ -7,12 +27,19 @@
     background-color: #2c2640 ;
 }
 
-.text-right{
+.slide-content{
     color: #fff;
     text-align: left;
     padding: 50px 100px;
 }
+.slider-text{
+    
+}
 
+.slider-btn{
+    background-color: #2c2640;
+    color: #fff;
+}
 text-para{
     text-align: left;
 }
@@ -28,19 +55,25 @@ btn2{
     padding-bottom: 10px;
 }
 
-.header-img{
+/*.header-img{
     width: 240px;
     height:350px;
     float: right;
 
 }
+*/
 
 .jumbotron {
     /*background-image: url(/img/Jumbotron.jpg);*/
     background-size: cover;
-    height: 350px;
+    height: 400px;
 }
 
+.header-img{
+    text-align: right;
+    margin: -155px 0 0 0;
+
+}
 .nav-right {
     float: right;
     margin-left: 710px;
@@ -79,4 +112,69 @@ purple-a{
 
 .push-content-left{
     margin-left: auto;
+}
+
+/* overwrite bootstrap css*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #2c2640;
+}
+
+.nav{
+    margin: 10px 0 10px 0;
+}
+
+.nav-link {
+    color: #6c757d;
+}
+
+.nav-link.hover{
+    color: #2c2640;
+}
+
+.temp-footer{
+    color: #727272;
+    background-color: #f9f9f9;
+    margin-top: 100px;
+    padding-top: 3rem!important;
+}
+.button2-align{
+    margin: 35px 20px 0px 10px;
+    height: 45px;
+}
+.footer-section2{
+    border-top: 5px solid #c5c3c6;
+    border-width: 1px;
+    margin: 20px 0px 20px 0px;
+    padding-top: 3rem!important;
+    
+}
+
+.social-links{
+    text-align: right;
+}
+
+.icn-space{
+    padding-right: 10px;
+}
+h5{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1rem;
+    color: #212529;
+}
+.footer-menu{
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-menu a{
+    color: #495057;
+    text-decoration: none;
+}
+
+.sp-menu{
+    padding-bottom: .5rem!important;
+    font-size: 14px;
 }
